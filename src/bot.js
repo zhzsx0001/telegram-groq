@@ -6,7 +6,7 @@ const groq = new Groq({
 });
 
 const bot = new Bot(
-  process.env.TELEGRAM_BOT_TOKEN || "your_telegram_bot_token",
+  process.env.TELEGRAM_BOT_TOKEN || "7035667255:AAExxm8dibJkASEg1NDkeZH6Clsg_mSynbc",
 );
 
 async function getGroqResponse(query) {
