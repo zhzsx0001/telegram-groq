@@ -2,7 +2,7 @@ import { Bot } from "grammy";
 import Groq from "groq-sdk";
 
 const groq = new Groq({
-  apiKey: process.env.GROQ_API_KEY || "your_groq_api_key",
+  apiKey: process.env.GROQ_API_KEY || "xai-DZi0367tITW72cd2kykVELVhHQexyrtWQagS4ehUqnwaQXhAdT7JqwPq2rVQTnNvYLoZkSzW2oOaTN4e",
 });
 
 const bot = new Bot(
